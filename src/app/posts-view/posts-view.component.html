@@ -1,0 +1,11 @@
+<h1>Posts</h1>
+<div class="posts">
+    <div *ngFor="let x of cardData" (click) = 'cardClicked(x)' >
+        <div class="card">
+            <h2>{{x.id}} {{x.title}}</h2>
+            <p>{{x.body}}</p>
+        </div>
+    </div>
+</div>
+
+

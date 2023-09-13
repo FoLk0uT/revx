@@ -1,0 +1,6 @@
+.tabView {
+    display: grid;
+    /* grid-column: 50%; */
+    grid-template-columns: 50% 50%;
+    height: 100vh;
+}
